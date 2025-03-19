@@ -17,9 +17,7 @@ const Callback = () => {
       axios.post('/api/instagram/login', { code })
         .then(response => {
           const longLivedToken = response.data.access_token;
-          const short_lived_token = response.data.data2.access_token;
           localStorage.setItem('accessToken', longLivedToken);
-          localStorage.setItem('short_lived_token', short_lived_token);
           console.log('Long-lived token received and saved to local storage!');
           
           // Redirect to dashboard after saving the long-lived token

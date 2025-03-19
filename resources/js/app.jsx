@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('example')).render(
       <Route path="/callback" element={<Callback />} />
       <Route path="/dashboard" element={<Dashboard />}>
         <Route path="user-info" element={<UserInfo />} />
-        <Route path="conversation" element={<Messages />} />
+        <Route path="messages" element={<Messages />} />
         <Route path="conversation/:id" element={<Conversation />} />
       </Route>
     </Routes>

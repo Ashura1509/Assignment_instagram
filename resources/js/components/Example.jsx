@@ -9,9 +9,9 @@ function Example() {
 
     // Instagram API credentials (replace with your actual values)
     const CLIENT_ID = 1665027280807295; // From Instagram Developer Portal
-    const REDIRECT_URI = 'https://b6ad-2401-4900-a8b1-a9aa-9ce1-8fea-b5e6-dc5c.ngrok-free.app/callback'; // Must match your app's redirect URI
-
+    const REDIRECT_URI = 'https://0adb-2401-4900-7ec0-b3e2-4dd4-7c96-cbfa-bfcd.ngrok-free.app/callback'; // Must match your app's redirect URI
     const AUTH_URL = `https://www.instagram.com/oauth/authorize?enable_fb_login=0&force_authentication=1&client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=instagram_business_basic%2Cinstagram_business_manage_messages%2Cinstagram_business_manage_comments%2Cinstagram_business_content_publish%2Cinstagram_business_manage_insights`;
+    // const AUTH_URL = `https://www.instagram.com/oauth/authorize?enable_fb_login=0&force_authentication=1&client_id=${CLIENT_ID}&redirect_uri=${REDIRECT_URI}&response_type=code&scope=instagram_business_basic%2Cinstagram_business_manage_messages%2Cinstagram_business_manage_comments%2Cinstagram_business_content_publish%2Cinstagram_business_manage_insights`;
 
     const handleLogin = () => {
         window.location.href = AUTH_URL; 

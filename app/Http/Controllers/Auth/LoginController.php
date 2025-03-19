@@ -16,7 +16,7 @@ class LoginController extends Controller
             'client_id' => '1665027280807295', // Replace with your app ID
             'client_secret' => "6152e535f6aa9f19624b592b911334d2", // Replace with your app secret
             'grant_type' => 'authorization_code',
-            'redirect_uri' => 'https://b6ad-2401-4900-a8b1-a9aa-9ce1-8fea-b5e6-dc5c.ngrok-free.app/callback', // Replace with your redirect URI
+            'redirect_uri' => 'https://0adb-2401-4900-7ec0-b3e2-4dd4-7c96-cbfa-bfcd.ngrok-free.app/callback', // Replace with your redirect URI
             'code' => $code,
         ]);
       
